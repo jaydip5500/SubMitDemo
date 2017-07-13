@@ -80,7 +80,7 @@ public class ProductListAdapter extends ArrayAdapter<Product> {
             holder.add = (ImageButton) convertView
                     .findViewById(R.id.decrese);
             holder.minus = (ImageButton) convertView
-                    .findViewById(R.id.add);
+                    .findViewById(R.id.add_value);
             holder.remove.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
