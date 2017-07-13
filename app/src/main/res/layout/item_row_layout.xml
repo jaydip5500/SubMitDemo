@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="item"/>
+
+        <TextView
+
+            android:id="@+id/item_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="item"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+            <TextView
+
+                android:id="@+id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_below="@+id/item_quantity"
+                android:textSize="18sp"
+                android:text="item"/>
+
+            <TextView
+                android:id="@+id/item_tamount"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+               android:layout_below="@+id/item_price"
+                android:textSize="18sp"
+                android:text="item"/>
+
+
+            <ImageButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/remove"
+                android:scaleType="fitXY"
+                android:src="@drawable/iconcross"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageButton
+                android:id="@+id/add"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/iconsminus"
+                android:layout_alignBottom="@+id/item_tamount"
+                android:layout_toLeftOf="@+id/item_quantity"
+                android:layout_toStartOf="@+id/item_quantity" />
+
+            <ImageButton
+                android:id="@+id/decrese"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_alignTop="@+id/add"
+                android:src="@drawable/iconplus"
+                android:layout_toRightOf="@+id/item_quantity"
+                android:layout_toEndOf="@+id/item_quantity" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

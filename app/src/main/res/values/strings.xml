@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GarmentStore</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="GarmentList">
+        <item>Garment1</item>
+        <item>Garment2</item>
+        <item>Garment3</item>
+        <item>Garment4</item>
+        <item>Garment5</item>
+        <item>Garment6</item>
+        <item>Garment7</item>
+        <item>Garment8</item>
+        <item>Garment9</item>
+        <item>Garment10</item>
+    </string-array>
+
+    <array name="price">
+        <item>200.99</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>999.99</item>
+        <item>150</item>
+        <item>250</item>
+    </array>
+
+    <integer-array name="Quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </integer-array>
+</resources>
