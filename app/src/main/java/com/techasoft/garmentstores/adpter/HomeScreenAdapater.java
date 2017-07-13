@@ -39,7 +39,7 @@ public class HomeScreenAdapater extends RecyclerView.Adapter<HomeScreenAdapater.
 
     @Override
     public void onBindViewHolder(HomeScreenViewHolder holder, final int position) {
-        holder.tvBillNo.setText(homeScreenArrayList.get(position).getBillno());
+        holder.tvBillNo.setText("Bill NO:"+homeScreenArrayList.get(position).getBillno());
         holder.tvBillDate.setText(homeScreenArrayList.get(position).getBilldate());
         holder.tvTotal.setText(homeScreenArrayList.get(position).getTotal());
         holder.cvBill.setOnClickListener(new View.OnClickListener() {

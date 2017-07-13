@@ -165,7 +165,7 @@ public class AdditemFragment extends Fragment  {
         iamount=(double)number;
 
         famount=pamount*iamount;
-        amount.setText(Double.toString(famount));
+        amount.setText("Total Amount: "+Double.toString(famount));
     }
 
 
@@ -184,7 +184,7 @@ public class AdditemFragment extends Fragment  {
                 // ToDo when first item is selected
 
 
-                priceItem.setText(price[i]);
+                priceItem.setText("Item Price: "+price[i]);
 
 
 

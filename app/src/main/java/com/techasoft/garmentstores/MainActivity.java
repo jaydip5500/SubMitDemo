@@ -59,7 +59,9 @@ public class MainActivity extends AppCompatActivity {
         mydb = new DBHelper(this);
 
 
+
         for (int i = 0; i <mydb.getAllBillsNo().size(); i++) {
+
 
             HomeScreen items = new HomeScreen();
             items.setBillno(mydb.getAllBillsNo().get(i));
@@ -70,15 +72,8 @@ public class MainActivity extends AppCompatActivity {
 
             homeScreenArrayList.add(items);
 
-           /* ArrayList<BillDetail> subitem = new ArrayList<>();
-            for (int j = 0; j < itemname.length; j++) {
-                BillDetail item = new BillDetail();
-                item.setItem(itemname[j]);
-                item.setPerpiece(perpieceprice[j]);
-                item.setQuantity(quantity[j]);
-                subitem.add(item);
-            }
-            items.setBillDetailArrayList(subitem);*/
+
+
 
         }
         mydb.close();
